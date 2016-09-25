@@ -15,6 +15,13 @@ bot.requireRegister(require('butler-plugin-loader'));
 ```
 
 ## Handlers
+### Help
+**Admin only** <br>
+**Available in:** Direct message. <br>
+Trigger: `!plugin`
+
+Shows help on how to use the plugin loader.
+
 ### Plugin list
 **Admin only** <br>
 **Available in:** Direct message. <br>
