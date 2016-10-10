@@ -1,11 +1,13 @@
 {
   "name": "butler-plugin-loader",
-  "version": "0.2.3",
+  "version": "0.3.3",
   "description": "Plugin loader for slackbotify butler",
   "main": "index.js",
   "scripts": {
     "precommit": "gulp lint",
-    "start": "node ./index.js"
+    "prepush": "npm test",
+    "start": "node ./index",
+    "test": "gulp test"
   },
   "author": "Rolf Koenders <@rolfkoenders>",
   "license": "MIT",
